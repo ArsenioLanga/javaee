@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<title>Agenda de Contactos</title>
+<link rel="icon" href="imagens/favicon.phg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Criar Novo Contactos</h1>
+	<form name="frmContacto" action="insert">
+		<table>
+		
+			<tr>
+				<td>
+					<input type="text" name="nome" placeholder="Nome">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="number" name="telefone" placeholder="Telefone">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<input type="email" name="email" placeholder="Email">
+				</td>
+			</tr>
+			
+		</table>
+		<input type="submit" value="Adicionar" class="botao1" onclick="validar()">
+	</form>
+	<script type="text/javascript" src="js/javaScript.js"></script>
+</body>
+</html>

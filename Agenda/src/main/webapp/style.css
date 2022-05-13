@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+body{
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{
+	color: #FF5823;
+}
+
+.botao1{
+	padding: 5px 15px;
+	text-decoration: none;
+	background-color: #d51213;
+	color: #000;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.botao2{
+	padding: 5px 15px;
+	text-decoration: none;
+	background-color: #66bbff;
+	color: #000;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table tr td input{
+	width: 350px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #FF5823;
+	border-radius: 5px;
+}
+
+table tr td input #input_id{
+	width: 50px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #FF5800;
+}
+
+
+#listaContactos{
+	margin-top: 30px;
+	border-collapse: collapse;
+	cursor: pointer;
+}
+
+#listaContactos th{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+	background-color: #FF5823;
+	color: #000;
+}
+
+#listaContactos td{
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: #eeddff;
+}
+
+
